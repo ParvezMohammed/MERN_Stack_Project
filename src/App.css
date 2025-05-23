@@ -1,4 +1,3 @@
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -327,7 +326,6 @@ html, body, #root, .app-bg {
   }
 }
 
-/* Event Requests Container - Updated with same margins as event details */
 .event-requests-outer {
   margin: 32px 24px 24px 0;
   background: rgba(20, 18, 32, 0.98);
@@ -421,7 +419,6 @@ html, body, #root, .app-bg {
   background: #ff61e6;
 }
 
-/* Event Requests Table - Fixed Event Name Column */
 .event-requests-table-wrapper {
   overflow-x: auto;
   border-radius: 18px;
@@ -481,7 +478,6 @@ html, body, #root, .app-bg {
   border-bottom-right-radius: 18px;
 }
 
-/* Fixed Event Name Column Header */
 .event-requests-table th:first-child {
   position: sticky;
   left: 0;
@@ -494,7 +490,6 @@ html, body, #root, .app-bg {
   border-top-left-radius: 18px;
 }
 
-/* Fixed Event Name Column Data */
 .event-requests-table td:first-child {
   position: sticky;
   left: 0;
@@ -506,25 +501,21 @@ html, body, #root, .app-bg {
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
 }
 
-/* Ensure the first column has proper background on hover */
 .event-requests-table tbody tr:hover td:first-child {
   background: rgba(26, 26, 46, 0.95);
 }
 
-/* Eye icon in Event Name cells */
 .event-requests-table td:first-child .eye-icon {
   margin-right: 8px;
   color: #e07be0;
 }
 
-/* Ensure all other columns are not sticky */
 .event-requests-table th:not(:first-child),
 .event-requests-table td:not(:first-child) {
   position: static;
   z-index: 1;
 }
 
-/* Additional styling for better visual separation */
 .event-requests-table th:first-child::after {
   content: '';
   position: absolute;
@@ -551,7 +542,6 @@ html, body, #root, .app-bg {
   font-size: 1.1em;
 }
 
-/* Responsive adjustments */
 @media (max-width: 900px) {
   .event-requests-table th:first-child,
   .event-requests-table td:first-child {
@@ -567,7 +557,6 @@ html, body, #root, .app-bg {
   }
 }
 
-/* Pagination */
 .event-requests-pagination {
   display: flex;
   justify-content: center;
@@ -593,7 +582,6 @@ html, body, #root, .app-bg {
   color: #fff;
 }
 
-/* Event Details/Container */
 .event-container,
 .event-details-container,
 .event-detail-container {
@@ -634,7 +622,6 @@ html, body, #root, .app-bg {
   color: #e07be0;
 }
 
-/* Tabs */
 .tabs-container {
   border: none;
   border-radius: 12px;
@@ -670,7 +657,6 @@ html, body, #root, .app-bg {
   font-weight: bold;
 }
 
-/* Event Content Layout */
 .event-content {
   display: flex;
   gap: 40px;
@@ -693,7 +679,6 @@ html, body, #root, .app-bg {
   font-weight: bold;
 }
 
-/* Form Elements */
 .dropdown-container {
   margin-bottom: 10px;
 }
@@ -720,7 +705,6 @@ html, body, #root, .app-bg {
   text-decoration: underline;
 }
 
-/* Room Cards */
 .room-cards {
   display: flex;
   flex-direction: column;
@@ -772,7 +756,6 @@ html, body, #root, .app-bg {
   color: #ddd;
 }
 
-/* Event Info Section */
 .event-info {
   margin-bottom: 30px;
 }
@@ -814,7 +797,6 @@ html, body, #root, .app-bg {
   color: #999;
 }
 
-/* Positions Table */
 .positions-section {
   margin-bottom: 30px;
 }
@@ -861,7 +843,6 @@ html, body, #root, .app-bg {
   width: 100%;
 }
 
-/* Pagination Controls */
 .pagination {
   display: flex;
   justify-content: center;
@@ -898,7 +879,6 @@ html, body, #root, .app-bg {
   background-color: #e07be0;
 }
 
-/* Save Button */
 .save-section {
   text-align: center;
   padding: 20px;
@@ -922,7 +902,6 @@ html, body, #root, .app-bg {
   box-shadow: 0 5px 15px rgba(224, 123, 224, 0.4);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .event-container,
   .event-details-container,
@@ -983,8 +962,6 @@ html, body, #root, .app-bg {
     padding: 0 15px 15px 15px;
   }
 }
-
-/* Event Details Section - Complete CSS Styles */
 
 .event-details-outer {
   margin: 32px 24px 24px 0;
@@ -1350,7 +1327,6 @@ html, body, #root, .app-bg {
   box-shadow: 0 5px 15px rgba(224, 123, 224, 0.4);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .event-details-outer {
     margin: 12px;

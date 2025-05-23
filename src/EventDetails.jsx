@@ -19,7 +19,6 @@ const positions = Array.from({ length: 7 }, (_, i) => ({
 export default function EventDetails() {
   return (
     <div className="event-details-outer">
-      {/* Header Row */}
       <div className="event-details-header-row">
         <button className="event-details-back-btn">
           <svg width="40" height="40" viewBox="0 0 32 32" fill="none" stroke="#fff" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 24l-8-8 8-8"/></svg>
@@ -28,7 +27,6 @@ export default function EventDetails() {
           Event Name <span className="event-details-venue-details">(Venue Details)</span>
         </span>
       </div>
-      {/* Tabs */}
       <div className="event-details-tabs">
         <button className="active">Event Details</button>
         <button>Assign Coordinator/Coordinator</button>
@@ -36,7 +34,6 @@ export default function EventDetails() {
         <button>Generate SOW</button>
       </div>
       <div className="event-details-main-content-row">
-        {/* Left: Assign Coordinator/Contractor */}
         <div className="event-details-left-col">
           <div className="event-details-section-label">Assign Coordinator</div>
           <div className="event-details-search-dropdown">
@@ -58,7 +55,6 @@ export default function EventDetails() {
             ))}
           </div>
         </div>
-        {/* Right: Event Info and Positions Table */}
         <div className="event-details-right-col">
           <div className="event-details-info-grid">
             <div className="event-details-info-title">Event Name <span className="event-details-venue-details">(Venue Here)</span></div>
@@ -112,7 +108,6 @@ export default function EventDetails() {
           </div>
         </div>
       </div>
-      {/* Save Edits Button */}
       <div className="event-details-save-btn-row">
         <button className="event-details-save-btn">Save Edits</button>
       </div>
